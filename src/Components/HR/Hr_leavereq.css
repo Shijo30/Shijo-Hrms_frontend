@@ -1,0 +1,99 @@
+
+/* From Uiverse.io by Javierrocadev */ 
+.leavecard {
+    width: 700px;
+    height: 350px;
+    background: #d2dbdb;
+    border-radius: 15px;
+    /* display: flex;
+    flex-direction: column; */
+    
+    /* justify-content: space-between; */
+  }
+  .leavemain_1{
+    padding-left: 50px;
+    padding-right: 50px;
+    
+ }
+  
+  .leavetitle, .more {
+    padding: 10px 15px;
+  }
+  
+  .leaveuser {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+  }
+  
+  .leaveuser__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .leaveuser__container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .leavetitle {
+    font-weight: 900;
+    font-size: 1.3em;
+  }
+  
+  .leavename {
+    font-weight: 600;
+    font-size: 40px;
+    
+  }
+  
+  .leaveusername {
+    font-size: .9em;
+    color: #64696e;
+  }
+ 
+  
+  .leaveimage {
+    width: 160px;
+    height: 160px;
+    background: rgb(22,19,70);
+    background: linear-gradient(295deg, rgba(22,19,70,1) 41%, rgba(89,177,237,1) 100%);
+    border-radius: 50%;
+    margin-right: 50px;
+    object-fit: cover;
+   
+  }
+  
+  .leaveapprove {
+    border: none;
+    border-radius: 25px;
+    background-color: #4781bc;
+    color: white;
+    padding: 8px 15px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row; 
+    
+  }
+  .leavereject {
+    border: none;
+    border-radius: 25px;
+    background-color: #f44851;
+    color: white;
+    padding: 8px 15px;
+    display: flex;
+    font-weight: 700;
+    flex-direction: row; 
+  }
+
+  
+  .leaveapprove:hover {
+    background-color: #0b903a;
+  }
+  .leavereject:hover {
+    background-color: #ea1a1a;
+  }

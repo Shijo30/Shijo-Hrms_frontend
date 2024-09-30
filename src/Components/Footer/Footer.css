@@ -1,0 +1,52 @@
+.link-boxes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer{
+    background: #000000e9;
+    margin-top: 100px;
+    
+    
+  }
+  .foothead{
+    margin-top: 50px;
+    color: aliceblue;
+    font-size: 15px;
+  }
+.foot1{
+  color: aliceblue;
+  font-size: 15px;
+}
+/* .footconatus{
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 10px;
+}
+.footsubscription{
+  color: aliceblue;
+} */
+.pfoot{
+  margin-bottom: 6px;
+  color: aliceblue;
+font-weight: 400;
+font-size: 15px;
+}
+
+hr {
+  margin-bottom: 20px;
+  border-color: #deab5f;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.para {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  /* margin-top: 20px; */
+}
+
+.para span {
+  color: #deab5f;
+}

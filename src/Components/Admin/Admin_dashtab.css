@@ -1,0 +1,23 @@
+
+.approvehead_1 h4{
+    color: #666666;
+    font-size: 1px;
+    font-weight:700;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-align: center;
+    margin-top: 110px;
+    
+}
+
+.approvemain_1{
+   padding-left: 50px;
+   padding-right: 50px;
+   
+}
+.approvecard_1{
+    box-shadow: 0.5px 0.5px 1px;
+    background-color: rgba(235, 235, 235, 0.174);
+}
+

@@ -36,3 +36,131 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+.hero-header {
+  background: url(./Components/Images/imgcorouseljpg.jpg) top right no-repeat ;
+  /* opacity: 70%; */
+  background-size: cover;
+  height: 420px;
+}
+
+
+
+
+/**************************************/
+/******** Section Header CSS **********/
+/**************************************/
+
+.section-header {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto 60px auto;
+  padding-bottom: 10px;
+}
+
+.section-header h2 {
+  color: #666666;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  text-align: center;
+
+}
+
+.section-header::after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 100px;
+  height: 5px;
+  background: #cccccc;
+  border-radius: 0 0 5px 5px;
+  bottom: 0;
+  left: calc(50% - 50px);
+}
+
+.section-header p {
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+/* 
+************************************ */
+/********* About + Single CSS *********/
+/**************************************/
+.about,
+.single {
+  position: relative;
+  padding: 0px 0 60px 0;
+  background: #f2f2f2;
+}
+
+.about .col-md-12,
+.about .col-md-6,
+.single .col-md-12,
+.single .col-md-6 {
+  margin-bottom: 30px;
+}
+
+.about .about-img,
+.single .single-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.about .about-img img,
+.single .single-img img {
+  width: 100%;
+}
+
+.about .about-content,
+.single .single-content {
+  position: relative;
+  width: 80%;
+  margin: -100px auto 0 auto;
+  padding: 30px;
+  background: #ffffff;
+}
+
+.about .about-content h2,
+.single .single-content h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.about .about-content p,
+.single .single-content p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.about .btn,
+.single .btn {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  background: #999999;
+  border-radius: 0;
+}
+
+.about .btn:hover,
+.single .btn:hover {
+  background: #4F84C4;
+}
+      
+.homecontents:hover{
+transform: translatey(-10px);
+}

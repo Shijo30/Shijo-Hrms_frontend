@@ -1,0 +1,63 @@
+
+.leavestatushead{
+
+    font-size: 2.5rem;
+    color: #333;
+    border-bottom: 3px solid #3498db;
+    display: inline-block;
+    padding-bottom: 10px;
+    align-items: center;
+}
+/* Leave Status Section */
+.leave-status {
+    margin-top: 20px;
+}
+
+.leavetab {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.leavetab thead {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.leavetab thead th {
+    padding: 15px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.leavetab tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.leavetab tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+.leavetab td {
+    padding: 15px;
+    font-size: 1rem;
+    text-align: left;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .container {
+        width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    thead th, tbody td {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+}
